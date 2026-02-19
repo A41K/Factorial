@@ -682,7 +682,7 @@ class GameEngine:
 
     def _render_menu(self):
         self.screen.fill(COLORS["UI_BG"])
-        t = self.title_font.render("ECO-FACTORY", True, COLORS["WHITE"])
+        t = self.title_font.render("Factorial", True, COLORS["WHITE"])
         self.screen.blit(t, (SCREEN_WIDTH//2 - t.get_width()//2, 200))
         b1 = self.font.render("Press ENTER to Start", True, COLORS["SKY_BLUE"])
         self.screen.blit(b1, (SCREEN_WIDTH//2 - b1.get_width()//2, 300))
